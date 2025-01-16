@@ -1,6 +1,7 @@
 # AWS Certified AI Practitioner Exam Notes
 
 ## Introduction to AI and Machine Learning on AWS
+<img width="976" alt="image" src="https://github.com/user-attachments/assets/36df6659-2a09-4a9c-a8e5-954b53556152" />
 
 ### AI/ML Services Overview
 - **Amazon SageMaker**
