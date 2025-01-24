@@ -1,3 +1,6 @@
+https://reinvent.awsevents.com/content/dam/reinvent/2024/slides/dev/DEV207_The-ABCs-of-generative-AI.pdf
+
+
 What is Gen AI
 
 Amazon Bedrock Overview
