@@ -2,6 +2,7 @@ https://reinvent.awsevents.com/content/dam/reinvent/2024/slides/dev/DEV207_The-A
 
 https://www.christiangreciano.com/AIF-C01/notes.html
 
+https://media.whizlabs.com/website/Cheat-Sheet-AWS-AI-Practitioner.pdf
 
 What is Gen AI
 
