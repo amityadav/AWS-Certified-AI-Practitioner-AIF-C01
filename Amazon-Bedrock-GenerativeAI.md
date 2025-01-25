@@ -1,5 +1,7 @@
 https://reinvent.awsevents.com/content/dam/reinvent/2024/slides/dev/DEV207_The-ABCs-of-generative-AI.pdf
 
+https://www.christiangreciano.com/AIF-C01/notes.html
+
 
 What is Gen AI
 
