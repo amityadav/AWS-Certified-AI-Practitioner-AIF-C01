@@ -23,7 +23,7 @@
 
 ## **Introduction**
 
-Instruction-based fine-tuning is a machine learning technique where foundation models (FM) are fine-tuned using natural language instructions to align better with specific tasks or objectives. It is particularly useful for improving model performance on tasks requiring contextual understanding and precision.
+Instruction-based fine-tuning is a machine learning technique where foundation models (FM) are fine-tuned using natural language instructions to align better with specific tasks or objectives. It is particularly useful for improving model performance on tasks requiring contextual understanding and precision. Instruction based fine tuning uses labled examples that are prompt-response pairs.
 
 ---
 
@@ -31,10 +31,11 @@ Instruction-based fine-tuning is a machine learning technique where foundation m
 
 Foundation models are pre-trained on massive datasets, providing them with a broad understanding of language and context. However, for specific use cases or industries (like healthcare, finance, or customer service), fine-tuning them with domain-specific data or instructions can:
 
-1. Improve task performance.
-2. Reduce model hallucination.
-3. Enhance alignment with end-user expectations.
-4. Simplify multi-task learning by incorporating diverse instructions.
+1. Further train on a particular field or domain
+2. Improve task performance.
+3. Reduce model hallucination.
+4. Enhance alignment with end-user expectations.
+5. Simplify multi-task learning by incorporating diverse instructions.
 
 ---
 
