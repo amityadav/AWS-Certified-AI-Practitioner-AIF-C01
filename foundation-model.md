@@ -161,3 +161,85 @@ Imagine fine-tuning a foundation model to assist in customer support by answerin
 
 ---
 
+
+# Continued Pre-training (domain-adaptation fine tuning)
+#* Continued Pre-Training in Amazon Bedrock
+
+Continued pre-training is the process of further training a pre-trained foundation model on additional data to improve its performance or adapt it to a specific domain.
+
+---
+
+## 1. **What is Continued Pre-Training?**
+- Extends the knowledge of a pre-trained model by training it on new data.
+- Useful for adapting general-purpose models to specific domains (e.g., healthcare, finance).
+- Enhances the model's understanding of niche vocabulary, concepts, or tasks.
+
+---
+
+## 2. **When to Use Continued Pre-Training?**
+- When the pre-trained model lacks domain-specific knowledge.
+- When you have a large, high-quality dataset relevant to your domain.
+- When fine-tuning alone is insufficient to achieve desired performance.
+
+---
+
+## 3. **How Does Continued Pre-Training Work?**
+1. **Start with a Pre-Trained Model**: Use a foundation model like Amazon Titan.
+2. **Prepare Domain-Specific Data**: Collect and preprocess a large dataset relevant to your domain.
+3. **Train the Model**: Use Amazon Bedrock to continue training the model on the new dataset.
+4. **Evaluate**: Test the model's performance on domain-specific tasks.
+5. **Deploy**: Use the updated model for inference.
+
+---
+
+## 4. **Key Steps in Amazon Bedrock**
+1. **Data Preparation**:
+   - Store domain-specific data in **Amazon S3**.
+   - Ensure data is clean, formatted, and relevant.
+2. **Model Selection**:
+   - Choose a foundation model (e.g., Amazon Titan) in Bedrock.
+3. **Training Setup**:
+   - Use **Amazon SageMaker** to configure and run the training job.
+   - Specify hyperparameters (e.g., learning rate, batch size).
+4. **Monitor Training**:
+   - Track metrics like loss and accuracy using SageMaker's monitoring tools.
+5. **Save and Deploy**:
+   - Save the updated model to S3.
+   - Deploy the model using SageMaker or Bedrock for inference.
+
+---
+
+## 5. **Benefits of Continued Pre-Training**
+- **Improved Domain Performance**: Better understanding of niche topics.
+- **Customization**: Tailors the model to specific business needs.
+- **Scalability**: Leverages AWS infrastructure for large-scale training.
+
+---
+
+## 6. **Best Practices**
+- Use high-quality, domain-specific datasets.
+- Start with a smaller dataset to test the process.
+- Monitor training to avoid overfitting.
+- Leverage AWS tools like SageMaker for automation and scalability.
+
+---
+
+## 7. **Example Use Cases**
+- **Healthcare**: Train on medical journals and patient records.
+- **Finance**: Adapt to financial reports and market data.
+- **Legal**: Improve understanding of legal documents and contracts.
+
+---
+
+## 8. **AWS Tools for Continued Pre-Training**
+- **Amazon Bedrock**: Access and customize foundation models.
+- **Amazon SageMaker**: Manage training jobs and hyperparameters.
+- **Amazon S3**: Store training data and model artifacts.
+
+---
+
+## 9. **Summary**
+Continued pre-training in Amazon Bedrock allows you to adapt foundation models to specific domains by training them on additional data. This process enhances the model's performance and relevance for specialized tasks. AWS provides tools like SageMaker and S3 to streamline the process.
+
+
+
